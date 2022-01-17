@@ -60,16 +60,13 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
     """
 
     # About Message
-    ABOUT = """
-**About This Bot** 
-
-A telegram force subscribing bot by @StarkBots
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/ForceSubscribeBot)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
-    """
+    ABOUT_TEXT = """
+ **🤖 <b>Bot :** Force-Sub-Bot</b>\n
+ **👲 <b>Developer :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
+ **👥 <b>Channel :** [Fayas Noushad](https://telegram.me/tellybots_4u)</b>\n
+ **❄️ <b>Credits :** Everyone in this journey</b>\n
+ **🍴 <b>Source :** [Click here](https://t.me/tellybots)</b>\n
+ **📝 <b>Language :** [Python3](https://python.org)</b>\n
+ **📚 <b>Library :** [Pyrogram v1.2.0](https://pyrogram.org)</b>\n
+ **🌟 <b>Server :** [Heroku](https://heroku.com)</b>\n
+"""
