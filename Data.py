@@ -35,28 +35,28 @@ class Data:
 
     # Help Message
     HELP = """
-1) Add me as **Admin** to a group.
+**Here's How to use me**
 
-2) Add me to the particular chat as **Admin** where you want to force your users to join. It can be any group or channel, public or private.
+1) Add me as Admin in your group.
+ 
+2) Add me to the particular chat as Admin where you want to force your users to join. It can be any group or channel, public or private.
+ 
+3) Now use /fsub chat_id/username
+if your Channel/Group is private then provide chat id .
 
-3) Use /fsub chat_id/username to make me functional. Use /id if you need chat id.
-Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
-
-4) [Optional] Use /settings to change settings!
-
-5) You are good to go. Leave the rest to me.
-
+👥 **For get group chat ID use 👉 /id command in your group**
+💡**For channel ID Open your Channel and send message 👉 /id**
+ 
+4) Additional Features: /settings to change settings!
+ 
+ 
 ✨ **Available Commands** ✨
-
+ 
 /fsub - See current force subscribe chat
-/fsub chat_id/username - Force users to join the particular chat
 /settings - Change Group Settings
 /id - Get the chat id of any group or channel
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-
-**Note** - You can also use `/forcesubscribe` instead of `/fsub`
+ 
+📝 **Note** - You can also use `/forcesubscribe` instead of `/fsub`
     """
 
     # About Message
