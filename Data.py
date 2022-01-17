@@ -4,16 +4,13 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+<b>Hey</b><b> {}</b>
 
-Welcome to {}
+🌲 <code>This is a Force subscribe bot to force users to join a specific channel before sending messages in a group</code>
 
-I can force your group's users to join a particular chat. 
-The chat can be a group or channel. It can be private or public.
+💡 <code>Use Help Button To Know How to Use Me</code>
 
-Use below buttons to learn more !
-
-By @StarkBots
+🚴‍♂️ <b>Maintained By</b><b> : @NaysaBots</b>
     """
 
     # Home Button
