@@ -60,7 +60,7 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
     """
 
     # About Message
-    ABOUT_TEXT = """
+    ABOUT = """
  **🤖 <b>Bot :** Force-Sub-Bot</b>\n
  **👲 <b>Developer :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
  **👥 <b>Channel :** [Fayas Noushad](https://telegram.me/tellybots_4u)</b>\n
