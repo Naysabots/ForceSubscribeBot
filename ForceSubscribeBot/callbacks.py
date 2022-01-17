@@ -51,6 +51,13 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text="**Here's How to use me**\n" + Data.HELP,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
+        )    
+
+    elif callback_query.data.lower() == "close":
+        chat_id = callback_query.from_user.id
+        message_ids = [callback_query.message.message_id, callback_query.message.reply_to_message.message_id]
+        await bot.delete_messages(chat_id, message_ids)
+       
         )
     elif query.startswith("action"):
         success = await admin_check(bot, callback_query.message, user_id, callback_query)
