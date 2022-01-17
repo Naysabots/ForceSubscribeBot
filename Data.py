@@ -35,7 +35,6 @@ class Data:
 
     # Help Message
     HELP = """
-**Here's How to use me**
 
 1) Add me as Admin in your group.
  
