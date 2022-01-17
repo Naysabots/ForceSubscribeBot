@@ -6,7 +6,7 @@ class Data:
     START = """
 <b>Hey</b><b> {}</b>
 
- ❄️ <code>This is a Force subscribe bot to force users to join a specific channel before sending messages in a group</code>
+❄️ <code>This is a Force subscribe bot to force users to join a specific channel before sending messages in a group</code>
 
 💡 <code>Use Help Button To Know How to Use Me</code>
 
@@ -16,7 +16,7 @@ class Data:
     # Home Button
     home_buttons = [
         [
-        InlineKeyboardButton('🏚️ Home', callback_data='home'),
+        InlineKeyboardButton('🏯 Home', callback_data='home'),
         InlineKeyboardButton('🚴‍♂️ About', callback_data='about'),
         InlineKeyboardButton('♨️ Close', callback_data='close')
         ]
