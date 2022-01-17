@@ -14,20 +14,24 @@ class Data:
     """
 
     # Home Button
-    home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
-    ]
+    home_button = [
+        [
+        InlineKeyboardButton('🏚️ Home', callback_data='home'),
+        InlineKeyboardButton('🚴‍♂️ About', callback_data='about'),
+        InlineKeyboardButton('♨️ Close', callback_data='close')
+        ]
+        ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
-        ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
-    ]
+        InlineKeyboardButton('♻️ Update Channel', url='https://telegram.me/tellybots_4u'),
+        InlineKeyboardButton('💬 Support Group', url='https://telegram.me/tellybots_support')
+        ],[
+        InlineKeyboardButton('❔ Help', callback_data='help'),
+        InlineKeyboardButton('♨️ Close', callback_data='close')
+        ]
+        ]
 
     # Help Message
     HELP = """
